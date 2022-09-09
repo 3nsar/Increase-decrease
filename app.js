@@ -13,6 +13,7 @@ btn2.addEventListener("click",function(){
     let newNumber = ++number;
     result.innerText = newNumber;
 })
+/*
 btn3.addEventListener("click",function(){
     result.innerText = 0;
-})
+})*/
