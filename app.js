@@ -7,13 +7,36 @@ let number = 0;
 btn1.addEventListener("click",function(){
     let newNumber = --number;
     result.innerText = newNumber;
+    if(newNumber > 0){
+        result.style.color= "green";
+    } else if(newNumber == 0){
+        result.style.color= "white";
+    }else{
+        result.style.color= "red";
+    }
 })
 
 btn2.addEventListener("click",function(){
     let newNumber = ++number;
     result.innerText = newNumber;
+    if(newNumber > 0){
+        result.style.color= "green";
+    } else if(newNumber == 0){
+        result.style.color= "white";
+    }else{
+        result.style.color= "red";
+    }
 })
-/*
+
 btn3.addEventListener("click",function(){
-    result.innerText = 0;
-})*/
+    number = 0;
+    result.innerText = number;
+    if(number == 0){
+        result.style.color= "white";
+    } else if(number > 0){
+        result.style.color= "green";
+    }else{
+        result.style.color= "red";
+    }
+
+})

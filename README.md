@@ -1,2 +1,3 @@
 # Increase-decrease
- increase and decrease a number
+
+This is a simple Increase-Decrease Webapp. You can increase and also decrease the given number.
